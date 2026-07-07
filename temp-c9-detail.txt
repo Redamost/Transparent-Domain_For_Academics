@@ -1,0 +1,122 @@
+﻿
+═══════════════════════════════════════════════════════
+📄 USTC Math list
+   URL: https://math.ustc.edu.cn/szdw/list.htm
+   Size: 335630B, CJK: 6102
+   Title: 师资队伍
+   Links found: 95
+   Name-like links: 82
+   👤 text:"院务公开" href:"https://math.ustc.edu.cn/zwgk/list.htm"
+   👤 text:"学院简介" href:"https://math.ustc.edu.cn/xyjj/list.htm"
+   👤 text:"学院领导" href:"https://math.ustc.edu.cn/xyld/list.htm"
+   👤 text:"学院党委" href:"https://math.ustc.edu.cn/xyjgsz/list.htm"
+   👤 text:"专业设置" href:"https://math.ustc.edu.cn/zysz_35033/list.htm"
+   👤 text:"专业设置" href:"https://math.ustc.edu.cn/zysz/list.htm"
+   👤 text:"平台机构" href:"https://math.ustc.edu.cn/ptjg/list.htm"
+   👤 text:"平台机构" href:"https://math.ustc.edu.cn/kyjg/list.htm"
+   👤 text:"专门委员会" href:"https://math.ustc.edu.cn/zmwyh_35035/list.htm"
+   👤 text:"专门委员会" href:"https://math.ustc.edu.cn/zmwyh_35030/list.htm"
+   👤 text:"行政办公" href:"https://math.ustc.edu.cn/xzbg/list.htm"
+   👤 text:"联系我们" href:"https://math.ustc.edu.cn/lxwm/list.htm"
+   👤 text:"院士" href:"https://math.ustc.edu.cn/ys/list.htm"
+   👤 text:"退休教师" href:"https://math.ustc.edu.cn/txjs/list.htm"
+   👤 text:"教育培养" href:"https://math.ustc.edu.cn/jypy/list.htm"
+
+   🔍 Inspecting profile: https://math.ustc.edu.cn/zwgk/list.htm
+   Profile size: 29056B
+   Profile title: 院务公开
+   NameMatch: "卓越青年讲席" via ([一-鿿]{2,6})\s*(?:教授|副教授|讲师|研究员)
+   NameMatch: "院务公开" via <h[123][^>]*>\s*([一-鿿]{2,6})\s*<\/h[123]
+   Text preview: 院务公开 ENGLISH 首页 院务公开 学院概况 学院简介 学院领导 学院党委 专业设置 专业设置 平台机构 平台机构 专门委员会 专门委员会 行政办公 联系我们 师资队伍 师资队伍 院士 退休教师 教育培养 本科生教育 本科相关规定 华罗庚英才班 数学强基班 中法数学英才班 教学简报 研究生教育 教学培养 学籍奖助 学位授予 就业管理 党团学工 党建文化 学生工作 党务通知 理论学习园地 招生
+
+═══════════════════════════════════════════════════════
+📄 PKU CS qtcy
+   URL: https://cs.pku.edu.cn/cse/qtcy.htm
+   Size: 57868B, CJK: 256
+   Title: 全体成员-北京大学计算机学院计算机科学与工程系
+   Links found: 9
+   Name-like links: 9
+   👤 text:"院系简介" href:"https://cs.pku.edu.cn/cse/index.htm"
+   👤 text:"系主任寄语" href:"https://cs.pku.edu.cn/cse/index/xzrjy.htm"
+   👤 text:"概况" href:"https://cs.pku.edu.cn/cse/index/gk.htm"
+   👤 text:"组织体系" href:"https://cs.pku.edu.cn/cse/index/zztx.htm"
+   👤 text:"全体成员" href:"https://cs.pku.edu.cn/cse/qtcy.htm"
+   👤 text:"通知公告" href:"https://cs.pku.edu.cn/cse/tzgg.htm"
+   👤 text:"教学工作" href:"https://cs.pku.edu.cn/cse/jxgz.htm"
+   👤 text:"系友活动" href:"https://cs.pku.edu.cn/cse/xyhd.htm"
+   👤 text:"新闻动态" href:"https://cs.pku.edu.cn/cse/xwdt.htm"
+
+   🔍 Inspecting profile: https://cs.pku.edu.cn/cse/index.htm
+   Profile size: 20573B
+   Profile title: 北京大学计算机学院计算机科学与工程系
+   NameMatch: "机学院孙艳春" via ([一-鿿]{2,6})\s*(?:教授|副教授|讲师|研究员)
+   Text preview: 北京大学计算机学院计算机科学与工程系 北京大学 | 计算机学院 院系简介 系主任寄语 概况 组织体系 全体成员 通知公告 科学研究 教学工作 系友活动 新闻动态 计算机专业人工智能系列课程研讨沙龙顺利举办 “中国高校人工智能人才国际培养计划”2023高校人工智能教师教学研讨班在北京大学举办 新闻动态 “北大-银河通用具身智能联合实验室... 2024年5月9日，北大-银河通用具身智能联合实验室（以
+
+═══════════════════════════════════════════════════════
+📄 ZJU CS list
+   URL: http://www.cs.zju.edu.cn/csen/26695/list.htm
+   Size: 15072B, CJK: 442
+   Title: 师资概况
+   Links found: 26
+   Name-like links: 26
+   👤 text:"院情总览" href:"http://www.cs.zju.edu.cn/csen/26694/list.htm"
+   👤 text:"学院领导" href:"http://www.cs.zju.edu.cn/csen/26914/list.htm"
+   👤 text:"机构设置" href:"http://www.cs.zju.edu.cn/csen/jgsz/list.htm"
+   👤 text:"学院大事记" href:"http://www.cs.zju.edu.cn/csen/26916/list.htm"
+   👤 text:"师资概况" href:"http://www.cs.zju.edu.cn/csen/27001/list.htm"
+   👤 text:"研究生导师" href:"http://www.cs.zju.edu.cn/csen/2021/0915/c27006a2421689/page.htm"
+   👤 text:"教师名录" href:"http://www.cs.zju.edu.cn/csen/27003/list.htm"
+   👤 text:"本科生教育" href:"http://www.cs.zju.edu.cn/csen/26988/list.htm"
+   👤 text:"研究生教育" href:"http://www.cs.zju.edu.cn/csen/26989/list.htm"
+   👤 text:"招生就业" href:"http://www.cs.zju.edu.cn/csen/26697/list.htm"
+   👤 text:"招生信息" href:"http://www.cs.zju.edu.cn/csen/27006/list.htm"
+   👤 text:"就业工作" href:"http://www.cs.zju.edu.cn/csen/27007/list.htm"
+   👤 text:"校园生活" href:"http://www.cs.zju.edu.cn/csen/26698/list.htm"
+   👤 text:"国际合作" href:"http://www.cs.zju.edu.cn/csen/26699/list.htm"
+   👤 text:"交流动态" href:"http://www.cs.zju.edu.cn/csen/27028/list.htm"
+
+   🔍 Inspecting profile: http://www.cs.zju.edu.cn/csen/26694/list.htm
+   Profile size: 19542B
+   Profile title: 学院概况
+   NameMatch: "学院概况" via <h[123][^>]*>\s*([一-鿿]{2,6})\s*<\/h[123]
+   Text preview: 学院概况 ENGLISH 办公网 院情总览 学院概况 学院领导 机构设置 学院大事记 师资队伍 师资概况 研究生导师 教师名录 人才培养 本科生教育 研究生教育 招生就业 招生信息 就业工作 校园生活 国际合作 交流动态 学术讲座 学生交流 发展联络 中心概况 校友工作 捐赠 继续教育 学科竞赛 学院工会 联系我们 ENGLISH 中文网 院情总览 学院概况 学院领导 机构设置 学院大事记 当前位
+
+═══════════════════════════════════════════════════════
+📄 USTC Physics list
+   URL: https://physics.ustc.edu.cn/szdw/list.htm
+   Size: 12920B, CJK: 588
+   Title: 师资队伍
+   Links found: 8
+   Name-like links: 7
+   👤 text:"中心首页" href:"https://physics.ustc.edu.cn/main.htm"
+   👤 text:"中心概况" href:"https://physics.ustc.edu.cn/37233/list.htm"
+   👤 text:"科研体系" href:"https://physics.ustc.edu.cn/kyxm/list.htm"
+   👤 text:"联系我们" href:"https://physics.ustc.edu.cn/37236/list.htm"
+   👤 text:"新闻中心" href:"https://physics.ustc.edu.cn/37234/list.htm"
+   👤 text:"学习资料" href:"https://physics.ustc.edu.cn/xxzl/list.htm"
+   👤 text:"学术报告" href:"https://physics.ustc.edu.cn/xsbg_41993/list.htm"
+      text:"物理学院2027年研究生招生博导信..." href:"https://physics.ustc.edu.cn/2026/0414/c12975a726612/page.htm"
+
+   🔍 Inspecting profile: https://physics.ustc.edu.cn/main.htm
+   Profile size: 36338B
+   Profile title: 中国科学技术大学物理学院
+   NameMatch: "学系李剑特任" via ([一-鿿]{2,6})\s*(?:教授|副教授|讲师|研究员)
+   NameMatch: "学院链接" via <h[123][^>]*>\s*([一-鿿]{2,6})\s*<\/h[123]
+   Text preview: 中国科学技术大学物理学院 [English Version] 首页 学院概况 学院简介 现任领导 党委组成 团委组成 院办人员 院系介绍 物理系 近代物理系 光学与光学工程系 天文学系 工程与应用物理系 物理实验教学中心 师资队伍 两院院士 博士生导师 教学名师 人才培养 本科生教育培养 研究生教育培养 所系结合英才班 悟理有术 高层次人才培养中心 学科建设 光学工程 软凝聚态生物物理 理论物理 
+
+═══════════════════════════════════════════════════════
+📄 NJU Physics list
+   URL: https://physics.nju.edu.cn/szdw.htm
+   Size: 14663B, CJK: 1048
+   Title: 南京大学物理学院
+   Links found: 3
+   Name-like links: 0
+      text:"更多 +" href:"http://physics.nju.edu.cn/xwdt/xshd/index.html"
+      text:"更多 +" href:"http://physics.nju.edu.cn/xwdt/xwdtyjcgbdzdhdhj/index.html"
+      text:"更多 +" href:"http://physics.nju.edu.cn/xwdt/tzggxlycgzhd/index.html"
+
+   🔍 Inspecting profile: http://physics.nju.edu.cn/xwdt/xshd/index.html
+   Profile size: 129593B
+   Profile title: 学术活动 南京大学物理学院
+   NameMatch: "袁之良" via ([一-鿿]{2,6})\s*(?:教授|副教授|讲师|研究员)
+   Text preview: 学术活动 南京大学物理学院 当前位置： 首页 > 新闻动态 > 学术活动 新闻动态 学术活动 新闻动态 通知公告 出境公示 简报 学术活动

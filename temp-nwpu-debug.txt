@@ -1,0 +1,55 @@
+﻿=== Fetching nwpu faculty list ===
+Status: 200
+Content-Type: text/html
+Size: 336496 bytes
+
+First 100 bytes (hex):
+ef bb bf 3c 21 44 4f 43 54 59 50 45 20 68 74 6d 6c 3e 0d 0a 3c 48 54 4d 4c 3e 3c 48 45 41 44 20 6c 61 6e 67 3d 22 65 6e 22 3e 3c 54 49 54 4c 45 3e e5 b8 88 e8 b5 84 e5 90 8d e5 8d 95 2d e8 ae a1 e7 ae 97 e6 9c ba e5 ad a6 e9 99 a2 3c 2f 54 49 54 4c 45 3e 3c 6d 65 74 61 20 6e 61 6d 65 3d 22 70 61 67
+
+--- utf-8 (CJK:3413, GBK-markers:0) ---
+<!DOCTYPE html> <HTML><HEAD lang="en"><TITLE>师资名单-计算机学院</TITLE><meta name="pageType" content="2"> <meta name="pageTitle" content="师资名单"> <META Name="keywords" Content="计算机学院" /> <META charset="UTF-8"> <META content="IE=edge,Chrome=1" http-equiv="X-UA-Compatible"> <META content="IE=9"
+  HasCJK:true HasNav:true
+
+--- gb2312 (CJK:4479, GBK-markers:104) ---
+锘�<!DOCTYPE html> <HTML><HEAD lang="en"><TITLE>甯堣祫鍚嶅崟-璁＄畻鏈哄闄�</TITLE><meta name="pageType" content="2"> <meta name="pageTitle" content="甯堣祫鍚嶅崟"> <META Name="keywords" Content="璁＄畻鏈哄闄�" /> <META charset="UTF-8"> <META content="IE=edge,Chrome=1" http-equiv="X-UA-Compatible"> <META co
+  HasCJK:true HasNav:false
+
+--- gbk (CJK:4479, GBK-markers:104) ---
+锘�<!DOCTYPE html> <HTML><HEAD lang="en"><TITLE>甯堣祫鍚嶅崟-璁＄畻鏈哄闄�</TITLE><meta name="pageType" content="2"> <meta name="pageTitle" content="甯堣祫鍚嶅崟"> <META Name="keywords" Content="璁＄畻鏈哄闄�" /> <META charset="UTF-8"> <META content="IE=edge,Chrome=1" http-equiv="X-UA-Compatible"> <META co
+  HasCJK:true HasNav:false
+
+--- gb18030 (CJK:4479, GBK-markers:104) ---
+锘�<!DOCTYPE html> <HTML><HEAD lang="en"><TITLE>甯堣祫鍚嶅崟-璁＄畻鏈哄闄�</TITLE><meta name="pageType" content="2"> <meta name="pageTitle" content="甯堣祫鍚嶅崟"> <META Name="keywords" Content="璁＄畻鏈哄闄�" /> <META charset="UTF-8"> <META content="IE=edge,Chrome=1" http-equiv="X-UA-Compatible"> <META co
+  HasCJK:true HasNav:false
+
+
+=== First, find a profile link ===
+Found 199 potential teacher links
+  鐗堟湰 -> http://www.nwpu.edu.cn/
+  櫌姒傚喌 -> https://jsj.nwpu.edu.cn/snew/szdw/../xygk.htm
+  悕闄 -> https://jsj.nwpu.edu.cn/snew/szdw/../xygk/zmyy.htm
+  鐢熸暀瀛 -> https://jsj.nwpu.edu.cn/snew/szdw/../jyjx/bks/zysz.htm
+  鐮旂 -> https://jsj.nwpu.edu.cn/snew/szdw/../jyjx/yjs/zysz.htm
+  绉戝 -> https://jsj.nwpu.edu.cn/snew/szdw/../kxyj.htm
+  鐮旂 -> https://jsj.nwpu.edu.cn/snew/szdw/../list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1556
+  湳浜 -> https://jsj.nwpu.edu.cn/snew/szdw/../list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1557
+  绉戠爺鍔 -> https://jsj.nwpu.edu.cn/snew/szdw/../list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1558
+  鍥介檯浜 -> https://jsj.nwpu.edu.cn/snew/szdw/../gjjl1/gjjlgk.htm
+
+
+=== Fetching profile: http://www.nwpu.edu.cn/ ===
+Status: 200
+Content-Type: text/html
+Size: 64202 bytes
+
+--- gbk (CJK:2583, markers:133) ---
+  Title: 瑗垮寳宸ヤ笟澶у
+  Text: 锘� 瑗垮寳宸ヤ笟澶у 缃戠珯椤甸潰宸插姞杞藉畬鎴� 鐢变簬鎮ㄥ綋鍓嶇殑娴忚鍣ㄧ増鏈繃浣庯紝瀛樺湪瀹夊叏闅愭偅銆傚缓璁偍灏藉揩鏇存柊锛屼互渚胯幏鍙栨洿濂界殑浣撻獙銆傛帹鑽愪娇鐢ㄦ渶鏂扮増Chrome銆丗irefox銆丱pera銆丒dge Chrome Firefox Opera Edge 瀛︾敓 鏁欏伐 鏍″弸 璁垮 甯哥敤閾炬帴 缈辩繑闂ㄦ埛 缈辩繑鍔炲叕 鐢靛瓙閭欢 涔﹁ &nbsp;| 鏍￠暱 ENG 瀛︽牎姒傚喌 瀛︽牎绠€浠� 瀛︽牎鍘嗗彶 鐜颁换棰嗗 鍘嗕换棰嗗 缁勭粐鏈烘瀯 鍏氭斂鏈哄叧 鏁欏绉戠爺鏈烘瀯 鏀拺鍜屾湇鍔′繚闅滄満鏋� 绉戠爺骞冲彴 浜烘墠鍩瑰
+
+--- utf-8 (CJK:1947, markers:0) ---
+  Title: 西北工业大学
+  Text: 西北工业大学 网站页面已加载完成 由于您当前的浏览器版本过低，存在安全隐患。建议您尽快更新，以便获取更好的体验。推荐使用最新版Chrome、Firefox、Opera、Edge Chrome Firefox Opera Edge 学生 教工 校友 访客 常用链接 翱翔门户 翱翔办公 电子邮件 书记 &nbsp;| 校长 ENG 学校概况 学校简介 学校历史 现任领导 历任领导 组织机构 党政机关 教学科研机构 支撑和服务保障机构 科研平台 人才培养 本科生教育 研究生教育 留学生教育 继续教育 网络教育 出国（境）交流 师资队伍 两院院士 杰出人才 青年人才 教师主页 科学研究 科研平台 设备
+
+--- gb2312 (CJK:2583, markers:133) ---
+  Title: 瑗垮寳宸ヤ笟澶у
+  Text: 锘� 瑗垮寳宸ヤ笟澶у 缃戠珯椤甸潰宸插姞杞藉畬鎴� 鐢变簬鎮ㄥ綋鍓嶇殑娴忚鍣ㄧ増鏈繃浣庯紝瀛樺湪瀹夊叏闅愭偅銆傚缓璁偍灏藉揩鏇存柊锛屼互渚胯幏鍙栨洿濂界殑浣撻獙銆傛帹鑽愪娇鐢ㄦ渶鏂扮増Chrome銆丗irefox銆丱pera銆丒dge Chrome Firefox Opera Edge 瀛︾敓 鏁欏伐 鏍″弸 璁垮 甯哥敤閾炬帴 缈辩繑闂ㄦ埛 缈辩繑鍔炲叕 鐢靛瓙閭欢 涔﹁ &nbsp;| 鏍￠暱 ENG 瀛︽牎姒傚喌 瀛︽牎绠€浠� 瀛︽牎鍘嗗彶 鐜颁换棰嗗 鍘嗕换棰嗗 缁勭粐鏈烘瀯 鍏氭斂鏈哄叧 鏁欏绉戠爺鏈烘瀯 鏀拺鍜屾湇鍔′繚闅滄満鏋� 绉戠爺骞冲彴 浜烘墠鍩瑰

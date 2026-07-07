@@ -1,0 +1,525 @@
+// ─── Prisma Schema: 透明领域 (Transparent Domain) ───
+
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+// ═══════════════════════════════════════════
+// ENUMS
+// ═══════════════════════════════════════════
+
+enum UserRole {
+  ADMIN
+  COMMUNITY
+  USER
+}
+
+enum ReportStatus {
+  PENDING
+  UNDER_REVIEW
+  APPROVED
+  REJECTED
+  APPEALED
+}
+
+enum ReportCategory {
+  ACADEMIC_MISCONDUCT
+  RIGOROUS_RESEARCH
+  CONFLICT_OF_INTEREST
+  CITATION_MANIPULATION
+  OTHER
+}
+
+enum EvidenceType {
+  SCREENSHOT
+  PDF
+  LINK
+  DOCUMENT
+  IMAGE
+}
+
+enum ScoreCategory {
+  RESEARCH_QUALITY
+  METHODOLOGY_RIGOR
+  COLLABORATION_ETHICS
+  CITATION_INTEGRITY
+  PEER_RECOGNITION
+  COMMUNITY_FEEDBACK
+}
+
+enum RatingSource {
+  SYSTEM
+  COMMUNITY
+  ADMIN
+}
+
+enum CircleType {
+  FIELD
+  INSTITUTION
+  REGION
+}
+
+// ═══════════════════════════════════════════
+// AUTH MODELS (NextAuth.js v4)
+// ═══════════════════════════════════════════
+
+model Account {
+  id                String  @id @default(cuid())
+  userId            String
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String?
+  access_token      String?
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String?
+  session_state     String?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+  @@index([userId])
+}
+
+model Session {
+  id           String   @id @default(cuid())
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+}
+
+model VerificationToken {
+  identifier String
+  token      String   @unique
+  expires    DateTime
+
+  @@unique([identifier, token])
+}
+
+// ═══════════════════════════════════════════
+// USER
+// ═══════════════════════════════════════════
+
+model User {
+  id               String       @id @default(cuid())
+  name             String?
+  email            String?      @unique
+  emailVerified    DateTime?
+  image            String?
+  role             UserRole     @default(USER)
+  eduEmail         String?      @unique
+  eduEmailVerified DateTime?
+  institution      String?
+  researchFields   String?
+  bio              String?
+  passwordHash     String?
+  createdAt        DateTime     @default(now())
+  updatedAt        DateTime     @updatedAt
+
+  // ── 透明等级系统 ──
+  transparencyLevel    Int       @default(1)
+  levelExp             Int       @default(0)
+  totalTasksCompleted  Int       @default(0)
+  totalReportsApproved Int       @default(0)
+  totalReportsRejected Int       @default(0)
+  reportAccuracy       Float     @default(0.0)
+  currentStreak        Int       @default(0)
+  longestStreak        Int       @default(0)
+  lastActiveDate       DateTime?
+
+  accounts    Account[]
+  sessions    Session[]
+  reports     Report[]
+  reviews     ReportReview[]
+  dailyTasks  DailyTask[]
+
+  @@index([role])
+  @@index([eduEmail])
+  @@index([transparencyLevel])
+}
+
+// ═══════════════════════════════════════════
+// EDU DOMAIN WHITELIST
+// ═══════════════════════════════════════════
+
+model EduDomain {
+  id       String  @id @default(cuid())
+  domain   String  @unique
+  nameZh   String
+  nameEn   String
+  isActive Boolean @default(true)
+}
+
+// ═══════════════════════════════════════════
+// RESEARCH FIELD
+// ═══════════════════════════════════════════
+
+model Field {
+  id            String   @id @default(cuid())
+  slug          String   @unique
+  nameZh        String
+  nameEn        String
+  descriptionZh String?
+  descriptionEn String?
+  parentId      String?
+  level         Int      @default(0)
+  sortOrder     Int      @default(0)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  parent   Field?        @relation("FieldHierarchy", fields: [parentId], references: [id])
+  children Field[]       @relation("FieldHierarchy")
+  persons  PersonField[]
+
+  @@index([slug])
+  @@index([parentId])
+  @@index([level])
+}
+
+// ═══════════════════════════════════════════
+// PERSON
+// ═══════════════════════════════════════════
+
+model Person {
+  id               String   @id @default(cuid())
+  nameZh           String
+  nameEn           String?
+  alternativeNames String?
+  title            String?
+  institution      String?
+  department       String?
+  region           String?
+  city             String?
+  orcidId          String?  @unique
+  googleScholarId  String?  @unique
+  researchGateId   String?  @unique
+  email            String?
+  website          String?
+  bioZh            String?
+  bioEn            String?
+  avatarUrl        String?
+  hIndex           Int?
+  citationCount    Int?
+  publicationCount Int?
+  lastScrapedAt    DateTime?
+  score            Float     @default(100.0)
+  scoreUpdatedAt   DateTime  @default(now())
+  isActive         Boolean   @default(true)
+  isVerified       Boolean   @default(false)
+  metadata         Json?
+  createdAt        DateTime  @default(now())
+  updatedAt        DateTime  @updatedAt
+
+  fields              PersonField[]
+  publications        Publication[]
+  ratings             RatingLog[]
+  reports             Report[]
+  researchUpdates     ResearchUpdate[]
+  competitionUpdates  CompetitionUpdate[]
+  evaluationUpdates   EvaluationUpdate[]
+  scoreBreakdowns     ScoreBreakdown[]
+  scoreChanges        ScoreChange[]
+
+  @@index([score])
+  @@index([nameEn])
+  @@index([nameZh])
+  @@index([institution])
+  @@index([hIndex])
+  @@index([isActive])
+  @@index([nameZh, institution])
+}
+
+model PersonField {
+  personId  String
+  fieldId   String
+  isPrimary Boolean @default(false)
+
+  person Person @relation(fields: [personId], references: [id], onDelete: Cascade)
+  field  Field  @relation(fields: [fieldId], references: [id], onDelete: Cascade)
+
+  @@id([personId, fieldId])
+  @@index([fieldId])
+}
+
+// ═══════════════════════════════════════════
+// PUBLICATION
+// ═══════════════════════════════════════════
+
+model Publication {
+  id            String   @id @default(cuid())
+  personId      String
+  title         String
+  authors       String?
+  journal       String?
+  year          Int?
+  doi           String?  @unique
+  url           String?
+  citationCount Int?
+  abstract      String?
+  source        String?
+  publishedAt   DateTime?
+  createdAt     DateTime @default(now())
+
+  person Person @relation(fields: [personId], references: [id], onDelete: Cascade)
+
+  @@index([personId])
+  @@index([year])
+}
+
+// ═══════════════════════════════════════════
+// RESEARCH UPDATE
+// ═══════════════════════════════════════════
+
+model ResearchUpdate {
+  id          String   @id @default(cuid())
+  personId    String
+  title       String
+  description String?
+  url         String?
+  source      String?
+  publishedAt DateTime?
+  createdAt   DateTime @default(now())
+
+  person Person @relation(fields: [personId], references: [id], onDelete: Cascade)
+
+  @@index([personId])
+  @@index([publishedAt])
+}
+
+// ═══════════════════════════════════════════
+// COMPETITION UPDATE（竞赛动态）
+// ═══════════════════════════════════════════
+
+model CompetitionUpdate {
+  id          String   @id @default(cuid())
+  personId    String
+  title       String
+  description String?
+  url         String?
+  source      String?
+  level       String?   // 竞赛级别: 国际级/国家级/省部级/校级
+  award       String?   // 获奖情况
+  publishedAt DateTime?
+  createdAt   DateTime  @default(now())
+
+  person Person @relation(fields: [personId], references: [id], onDelete: Cascade)
+
+  @@index([personId])
+  @@index([publishedAt])
+}
+
+// ═══════════════════════════════════════════
+// EVALUATION UPDATE（评比动态）
+// ═══════════════════════════════════════════
+
+model EvaluationUpdate {
+  id          String   @id @default(cuid())
+  personId    String
+  title       String
+  description String?
+  url         String?
+  source      String?
+  evalType    String?   // 评比类型: 人才称号/学术荣誉/教学评比/科研奖励
+  result      String?   // 评比结果
+  publishedAt DateTime?
+  createdAt   DateTime  @default(now())
+
+  person Person @relation(fields: [personId], references: [id], onDelete: Cascade)
+
+  @@index([personId])
+  @@index([publishedAt])
+}
+
+// ═══════════════════════════════════════════
+// REPORT
+// ═══════════════════════════════════════════
+
+model Report {
+  id              String        @id @default(cuid())
+  reporterId      String
+  personId        String
+  category        ReportCategory
+  title           String
+  description     String
+  status          ReportStatus  @default(PENDING)
+  severity        Int?
+  adminNotes      String?
+  rejectionReason String?
+  createdAt       DateTime      @default(now())
+  updatedAt       DateTime      @updatedAt
+  reviewedAt      DateTime?
+
+  reporter    User            @relation(fields: [reporterId], references: [id])
+  person      Person          @relation(fields: [personId], references: [id])
+  evidences   ReportEvidence[]
+  reviews     ReportReview[]
+  scoreChange ScoreChange?
+
+  @@index([status])
+  @@index([reporterId])
+  @@index([personId])
+  @@index([createdAt])
+}
+
+model ReportEvidence {
+  id        String       @id @default(cuid())
+  reportId  String
+  type      EvidenceType
+  url       String
+  fileName  String
+  fileSize  Int?
+  caption   String?
+  createdAt DateTime     @default(now())
+
+  report Report @relation(fields: [reportId], references: [id], onDelete: Cascade)
+
+  @@index([reportId])
+}
+
+model ReportReview {
+  id         String   @id @default(cuid())
+  reportId   String
+  reviewerId String
+  action     String
+  notes      String?
+  createdAt  DateTime @default(now())
+
+  report   Report @relation(fields: [reportId], references: [id], onDelete: Cascade)
+  reviewer User   @relation(fields: [reviewerId], references: [id])
+
+  @@index([reportId])
+  @@index([reviewerId])
+}
+
+// ═══════════════════════════════════════════
+// RATING SYSTEM
+// ═══════════════════════════════════════════
+
+model RatingLog {
+  id         String        @id @default(cuid())
+  personId   String
+  category   ScoreCategory
+  oldValue   Float
+  newValue   Float
+  delta      Float
+  source     RatingSource
+  reportId   String?
+  reviewerId String?
+  notes      String?
+  createdAt  DateTime      @default(now())
+
+  person Person @relation(fields: [personId], references: [id], onDelete: Cascade)
+
+  @@index([personId])
+  @@index([createdAt])
+  @@index([category])
+}
+
+model ScoreBreakdown {
+  personId String
+  category ScoreCategory
+  value    Float @default(100.0)
+
+  person Person @relation(fields: [personId], references: [id], onDelete: Cascade)
+
+  @@id([personId, category])
+}
+
+model ScoreChange {
+  id        String   @id @default(cuid())
+  reportId  String   @unique
+  personId  String
+  oldScore  Float
+  newScore  Float
+  delta     Float
+  appliedBy String?
+  createdAt DateTime @default(now())
+
+  report Report @relation(fields: [reportId], references: [id], onDelete: Cascade)
+  person Person @relation(fields: [personId], references: [id], onDelete: Cascade)
+
+  @@index([reportId])
+  @@index([personId])
+}
+
+// ═══════════════════════════════════════════
+// TASK SYSTEM
+// ═══════════════════════════════════════════
+
+model DailyTask {
+  id          String    @id @default(cuid())
+  userId      String
+  fieldId     String?
+  title       String
+  description String?
+  status      String    @default("PENDING")
+  taskType    String    @default("MONITOR")
+  expReward   Int       @default(10)
+  assignedAt  DateTime  @default(now())
+  completedAt DateTime?
+  createdAt   DateTime  @default(now())
+
+  user  User  @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@index([assignedAt])
+  @@index([status])
+}
+
+// ═══════════════════════════════════════════
+// AUDIT TRAIL
+// ═══════════════════════════════════════════
+
+model AuditLog {
+  id         String   @id @default(cuid())
+  userId     String?
+  action     String
+  entityType String
+  entityId   String?
+  oldData    Json?
+  newData    Json?
+  ipAddress  String?
+  userAgent  String?
+  createdAt  DateTime @default(now())
+
+  @@index([userId])
+  @@index([entityType, entityId])
+  @@index([createdAt])
+}
+
+// ═══════════════════════════════════════════
+// ACADEMIC CIRCLES
+// ═══════════════════════════════════════════
+
+model AcademicCircle {
+  id            String     @id @default(cuid())
+  slug          String     @unique
+  nameZh        String
+  nameEn        String
+  descriptionZh String?
+  descriptionEn String?
+  type          CircleType
+  fieldId       String?
+  institution   String?
+  region        String?
+  memberCount   Int        @default(0)
+  avgScore      Float      @default(100.0)
+  topPersonId   String?
+  topPersonName String?
+  createdAt     DateTime   @default(now())
+  updatedAt     DateTime   @updatedAt
+
+  @@index([type])
+  @@index([slug])
+}

@@ -1,0 +1,71 @@
+﻿Page size: 329665B, CJK chars: 3413
+
+=== All <a> tags with Chinese text (no nav filter) ===
+  [1] href="../../index.htm" text="首页"
+  [2] href="../xygk.htm" text="学院概况"
+  [3] href="../jglist.jsp?urltype=tree.TreeTempUrl&wbtreeid=1656" text="机构设置"
+  [4] href="../xygk/xrld.htm" text="现任领导"
+  [5] href="../xygk/lrld1.htm" text="历任领导"
+  [6] href="../xygk/zmjs.htm" text="著名教授"
+  [7] href="../xygk/zmyy.htm" text="知名院友"
+  [8] href="../szdw.htm" text="师资队伍"
+  [9] href="szmd.htm" text="师资名单"
+  [10] href="../list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1534" text="人事政策"
+  [11] href="../list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1536" text="办事指南"
+  [12] href="../list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1537" text="相关下载"
+  [13] href="../jyjx.htm" text="教育教学"
+  [14] href="../jyjx/bks/zysz.htm" text="本科生教学"
+  [15] href="../jyjx/yjs/zysz.htm" text="研究生教学"
+  [16] href="../kxyj.htm" text="科学研究"
+  [17] href="../list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1556" text="研究机构"
+  [18] href="../list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1557" text="学术交流"
+  [19] href="../list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1558" text="科研动态"
+  [20] href="../dlist.jsp?urltype=tree.TreeTempUrl&wbtreeid=1625" text="政策法规"
+  [21] href="../list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1574" text="相关下载"
+  [22] href="../gjjl1/gjjlgk.htm" text="国际交流"
+  [23] href="../gjjl1/gjjlgk.htm" text="国际交流概况"
+  [24] href="../thirdlist.jsp?urltype=tree.TreeTempUrl&wbtreeid=1754" text="国际交流动态"
+  [25] href="../thirdlist.jsp?urltype=tree.TreeTempUrl&wbtreeid=1734" text="特色项目"
+  [26] href="../thirdlist.jsp?urltype=tree.TreeTempUrl&wbtreeid=1746" text="相关下载"
+  [27] href="../djcy/djcygk.htm" text="党建创优"
+  [28] href="../thirdlist.jsp?urltype=tree.TreeTempUrl&wbtreeid=1585" text="理论学习"
+  [29] href="../thirdlist.jsp?urltype=tree.TreeTempUrl&wbtreeid=1586" text="组织建设"
+  [30] href="../thirdlist.jsp?urltype=tree.TreeTempUrl&wbtreeid=2378" text="党风廉政"
+  [31] href="../thirdlist.jsp?urltype=tree.TreeTempUrl&wbtreeid=1588" text="创优争先"
+  [32] href="../xsgz.htm" text="学生工作"
+  [33] href="../list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1590" text="学生活动"
+  [34] href="../list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1591" text="通知公告"
+  [35] href="../list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1592" text="团学组织"
+  [36] href="../list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1593" text="创新实践"
+  [37] href="../list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1595" text="规章制度"
+  [38] href="../list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1696" text="相关下载"
+  [39] href="../rczp.htm" text="人才招聘"
+  [40] href="../gywm.htm" text="关于我们"
+Total links with Chinese text: 224
+
+=== Content around "教授" keywords ===
+  著名教授
+
+=== URLs matching profile patterns ===
+
+=== Looking for name-like text near URLs ===
+  "机构设置" -> ../jglist.jsp?urltype=tree.TreeTempUrl&wbtreeid=1656
+  "人事政策" -> ../list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1534
+  "办事指南" -> ../list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1536
+  "学术交流" -> ../list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1557
+  "科研动态" -> ../list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1558
+  "政策法规" -> ../dlist.jsp?urltype=tree.TreeTempUrl&wbtreeid=1625
+  "国际交流动态" -> ../thirdlist.jsp?urltype=tree.TreeTempUrl&wbtreeid=1754
+  "特色项目" -> ../thirdlist.jsp?urltype=tree.TreeTempUrl&wbtreeid=1734
+  "理论学习" -> ../thirdlist.jsp?urltype=tree.TreeTempUrl&wbtreeid=1585
+  "组织建设" -> ../thirdlist.jsp?urltype=tree.TreeTempUrl&wbtreeid=1586
+  "党风廉政" -> ../thirdlist.jsp?urltype=tree.TreeTempUrl&wbtreeid=2378
+  "创优争先" -> ../thirdlist.jsp?urltype=tree.TreeTempUrl&wbtreeid=1588
+  "学生活动" -> ../list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1590
+  "团学组织" -> ../list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1592
+  "创新实践" -> ../list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1593
+  "规章制度" -> ../list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1595
+  "智能计算系统系" -> ../szdwlist.jsp?urltype=tree.TreeTempUrl&wbtreeid=1515
+  "计算机科学与软件系" -> ../szdwlist.jsp?urltype=tree.TreeTempUrl&wbtreeid=1519
+  "计算机信息工程系" -> ../szdwlist.jsp?urltype=tree.TreeTempUrl&wbtreeid=1523
+  "网络与机器人系统系" -> ../szdwlist.jsp?urltype=tree.TreeTempUrl&wbtreeid=1527

@@ -1,0 +1,433 @@
+{
+  "site": {
+    "title": "Transparent Domain",
+    "subtitle": "Research Transparency Platform",
+    "description": "Showcasing influential researchers and promoting academic transparency"
+  },
+  "nav": {
+    "home": "Home",
+    "browse": "Browse Fields",
+    "search": "Search",
+    "circles": "Academic Circles",
+    "about": "About",
+    "signin": "Sign In",
+    "signout": "Sign Out",
+    "register": "Register",
+    "dashboard": "Dashboard",
+    "admin": "Admin"
+  },
+  "home": {
+    "hero": "Uncovering Research Influence",
+    "heroSub": "A community-monitored rating platform for research integrity",
+    "searchPlaceholder": "Search researchers, institutions, or fields...",
+    "topFields": "Top Research Fields",
+    "topRated": "Top Rated Researchers",
+    "topResearchers": "Top Researchers",
+    "lowResearchers": "Low Rated Researchers",
+    "recentActivity": "Recent Activity",
+    "statsPersons": "Researchers Listed",
+    "statsFields": "Research Fields",
+    "statsReports": "Community Reports"
+  },
+  "search": {
+    "title": "Search",
+    "placeholder": "Search by name, institution, or keyword...",
+    "filters": "Filters",
+    "field": "Research Field",
+    "institution": "Institution",
+    "scoreRange": "Score Range",
+    "sortBy": "Sort By",
+    "sortScoreDesc": "Score: High to Low",
+    "sortScoreAsc": "Score: Low to High",
+    "sortNameAsc": "Name: A-Z",
+    "sortHIndexDesc": "H-Index: High to Low",
+    "noResults": "No results found",
+    "typePerson": "Researchers",
+    "typePublication": "Publications"
+  },
+  "person": {
+    "title": "Title",
+    "institution": "Institution",
+    "department": "Department",
+    "fields": "Research Fields",
+    "contact": "Contact",
+    "email": "Email",
+    "website": "Website",
+    "orcid": "ORCID",
+    "googleScholar": "Google Scholar",
+    "researchGate": "ResearchGate",
+    "overview": "Overview",
+    "publications": "Publications",
+    "researchFeed": "Research Feed",
+    "competitionFeed": "Competition",
+    "evaluationFeed": "Evaluation",
+    "ratingHistory": "Rating History",
+    "reports": "Reports",
+    "academicMetrics": "Academic Metrics",
+    "hIndex": "H-Index",
+    "citations": "Citations",
+    "publicationsCount": "Publications",
+    "reportButton": "Submit Report",
+    "score": "Score",
+    "unknownNameEn": "English name unknown",
+    "unknownTitle": "Title unknown",
+    "unknownInstitution": "Institution unknown",
+    "unknownDepartment": "Department unknown",
+    "unknownField": "Research field unknown",
+    "unknownEmail": "Email unknown",
+    "unknownWebsite": "Website unknown",
+    "unknownOrcid": "ORCID unknown",
+    "unknownGS": "Google Scholar unknown",
+    "noContact": "No contact information",
+    "noBio": "No biography available",
+    "noPublications": "No publications listed",
+    "noUpdates": "No recent research updates",
+    "noCompetitionUpdates": "No competition updates",
+    "noEvaluationUpdates": "No evaluation updates",
+    "competitionLevel": "Level",
+    "competitionAward": "Award",
+    "evaluationType": "Type",
+    "evaluationResult": "Result",
+    "lastUpdated": "Last Updated",
+    "dataIncomplete": "Data incomplete — profile generated from public sources",
+    "sourceInfo": "Data source: Chinese university public websites",
+    "scrapeDate": "Scraped",
+    "notScraped": "Not yet scraped",
+    "disclaimer": "This profile is algorithmically generated from public sources. Data may be incomplete or inaccurate. Researchers may request profile updates or removal."
+  },
+  "rating": {
+    "score": "Overall Score",
+    "baseline": "Baseline (100)",
+    "excellent": "Excellent",
+    "good": "Good",
+    "fair": "Fair",
+    "poor": "Poor",
+    "critical": "Critical",
+    "category": {
+      "RESEARCH_QUALITY": "Research Quality",
+      "METHODOLOGY_RIGOR": "Methodology Rigor",
+      "COLLABORATION_ETHICS": "Collaboration Ethics",
+      "CITATION_INTEGRITY": "Citation Integrity",
+      "PEER_RECOGNITION": "Peer Recognition",
+      "COMMUNITY_FEEDBACK": "Community Feedback"
+    },
+    "noHistory": "No rating history yet"
+  },
+  "report": {
+    "title": "Submit Report",
+    "selectPerson": "Select Researcher",
+    "category": "Report Category",
+    "category_ACADEMIC_MISCONDUCT": "Academic Misconduct",
+    "category_RIGOROUS_RESEARCH": "Rigorous Research",
+    "category_CONFLICT_OF_INTEREST": "Conflict of Interest",
+    "category_CITATION_MANIPULATION": "Citation Manipulation",
+    "category_OTHER": "Other",
+    "summary": "Report Title",
+    "description": "Detailed Description",
+    "descriptionPlaceholder": "Please describe what you observed in detail (min 50 characters)...",
+    "severity": "Severity",
+    "evidence": "Evidence Upload",
+    "submit": "Submit Report",
+    "success": "Report submitted successfully. Awaiting admin review.",
+    "myReports": "My Reports",
+    "status": "Status",
+    "status_PENDING": "Pending",
+    "status_UNDER_REVIEW": "Under Review",
+    "status_APPROVED": "Approved",
+    "status_REJECTED": "Rejected",
+    "status_APPEALED": "Appealed"
+  },
+  "auth": {
+    "signin": "Sign In",
+    "register": "Register",
+    "email": "Email",
+    "password": "Password",
+    "name": "Name",
+    "confirmPassword": "Confirm Password",
+    "signinButton": "Sign In",
+    "registerButton": "Register",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?",
+    "verifyEdu": "Verify EDU Email",
+    "eduEmail": "Education Email (.edu / .edu.cn)",
+    "sendVerification": "Send Verification",
+    "enterCode": "Enter Verification Code",
+    "confirmVerification": "Confirm Verification",
+    "upgradeToCommunity": "Upgrade to Community Participant"
+  },
+  "dashboard": {
+    "welcome": "Welcome back",
+    "stats": "Statistics",
+    "totalReports": "Reports Submitted",
+    "approvedReports": "Reports Approved",
+    "rejectedReports": "Reports Rejected",
+    "scoreImpact": "Score Impact",
+    "streak": "Day Streak",
+    "todayTasks": "Today's Tasks",
+    "myReports": "My Reports",
+    "recentReports": "Recent Reports",
+    "noTasks": "No tasks for today"
+  },
+  "community": {
+    "level": "Transparency Level",
+    "levelProgress": "Level Progress",
+    "expToNext": "{exp} EXP to next level",
+    "maxLevel": "Maximum level reached",
+    "accuracy": "Report Accuracy",
+    "tasksCompleted": "Tasks Done",
+    "reportsApproved": "Reports Approved",
+    "currentStreak": "Day Streak",
+    "longestStreak": "Best Streak",
+    "days": "days",
+    "taskComplete": "Complete",
+    "taskCompleted": "Completed",
+    "taskSkip": "Skip",
+    "taskExpReward": "+{exp} EXP",
+    "completedAt": "Done at",
+    "allTasksDone": "No tasks for today",
+    "allTasksCompleted": "All tasks completed ✓",
+    "level_1_name": "Observer",
+    "level_2_name": "Supervisor",
+    "level_3_name": "Guardian",
+    "level_4_name": "Arbiter",
+    "level_5_name": "Transparency Envoy"
+  },
+  "hotspot": {
+    "title": "Transparency Hotspots",
+    "subtitle": "Real-time academic events gaining community attention",
+    "tabStains": "Academic Stains",
+    "tabHighlights": "Academic Highlights",
+    "stainCount": "Reported {count} times",
+    "highlightScore": "Highlight Score",
+    "severityLevel": "Severity",
+    "heatScore": "Heat",
+    "score": "Score",
+    "viewDetail": "View Details",
+    "noStains": "No academic stains — community is clean",
+    "noHighlights": "No highlights yet — awaiting positive activity",
+    "recentUpdate": "Recent Update",
+    "recentAchievements": "achievements",
+    "showingCount": "Showing {count} hotspots",
+    "live": "Live",
+    "updating": "Updating...",
+    "justNow": "Just now",
+    "secondsAgo": "{seconds}s ago",
+    "minutesAgo": "{minutes}m ago",
+    "hoursAgo": "{hours}h ago",
+    "daysAgo": "{days}d ago",
+    "monthsAgo": "{months}mo ago"
+  },
+  "admin": {
+    "dashboard": "Admin Dashboard",
+    "reports": "Report Review",
+    "persons": "Manage Persons",
+    "fields": "Manage Fields",
+    "users": "Manage Users",
+    "quality": "Data Quality",
+    "auditLog": "Audit Log",
+    "pendingReports": "Pending Reports",
+    "totalPersons": "Total Persons",
+    "communityMembers": "Community Members",
+    "recentChanges": "Recent Score Changes",
+    "review": "Review",
+    "approve": "Approve",
+    "reject": "Reject",
+    "needMoreInfo": "Need More Info",
+    "adminNotes": "Admin Notes",
+    "scoreDelta": "Score Adjustment",
+    "confirmApprove": "Confirm approval and apply score adjustment?",
+    "confirmReject": "Confirm rejection of this report?",
+    "dataQuality": {
+      "title": "Data Quality Management",
+      "scanNow": "Scan Now",
+      "scanning": "Scanning...",
+      "dryRun": "Dry-Run Cleanup",
+      "execCleanup": "Execute Cleanup",
+      "execCleanupConfirm": "This will permanently modify data. Continue?",
+      "lastScan": "Last scan",
+      "totalIssues": "Total Issues",
+      "critical": "Critical",
+      "high": "High",
+      "medium": "Medium",
+      "low": "Low",
+      "autoFixable": "auto-fixable",
+      "needsReview": "need review",
+      "noIssues": "No issues found",
+      "noIssuesDesc": "Database quality looks good",
+      "scanFailed": "Failed to run scan. Ensure you are logged in as admin.",
+      "cleanupResult": "Cleanup Result",
+      "dryRunResult": "Dry-Run Result",
+      "succeeded": "{count} succeeded",
+      "failed": "{count} failed",
+      "recentActivity": "Recent Activity",
+      "issueTypes": {
+        "GARBAGE_NAME": "Garbage Names",
+        "JUNK_BIO": "Junk Bios",
+        "INCOMPLETE_PROFILE": "Incomplete Profiles",
+        "DUPLICATE_PERSON": "Duplicate Persons",
+        "STALE_DATA": "Stale Data",
+        "ORPHANED_RECORD": "Orphaned Records",
+        "SUSPICIOUS_SCORE": "Suspicious Scores",
+        "EMPTY_FIELDS": "Empty Fields",
+        "INACTIVE_WITH_CONTENT": "Inactive Residual Data"
+      }
+    }
+  },
+  "field": {
+    "title": "Research Fields",
+    "subFields": "Sub-fields",
+    "personsInField": "Researchers in this Field",
+    "noSubFields": "No sub-fields",
+    "avgScore": "Average Score",
+    "personCount": "Researchers"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Failed to load",
+    "retry": "Retry",
+    "noData": "No data available",
+    "back": "Back",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "more": "More",
+    "page": "Page {page}",
+    "language": "中文"
+  },
+  "footer": {
+    "about": "About Transparent Domain",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "disclaimer": "Disclaimer",
+    "rights": "All Rights Reserved"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last Updated",
+    "sections": {
+      "collection": {
+        "title": "1. Information Collection",
+        "content": "We collect the following types of information when you use Transparent Domain:",
+        "items": {
+          "email": "Email address (registration and EDU verification)",
+          "profile": "Profile information (name, institution, research fields)",
+          "research": "Research activity data (submitted reports, review history)",
+          "usage": "Usage data (page visits, search history)"
+        }
+      },
+      "usage": {
+        "title": "2. How We Use Information",
+        "content": "Collected information is used to: provide and improve our services, verify user identity and academic background, process community reports and score updates, send service-related notifications, and analyze and enhance platform security. We will not use your personal information for purposes unrelated to the above."
+      },
+      "sharing": {
+        "title": "3. Information Sharing",
+        "content": "We do not share your personal information with third parties except: with your explicit consent, when required by law or lawful government request, or to protect the rights and safety of Transparent Domain. We never sell your personal data."
+      },
+      "storage": {
+        "title": "4. Data Storage & Security",
+        "content": "Your data is stored in an encrypted PostgreSQL database. We employ industry-standard security measures to protect your personal information, including transport encryption (TLS), access controls, and regular security audits. Data is retained for the duration of your active account plus a reasonable backup period."
+      },
+      "rights": {
+        "title": "5. Your Rights",
+        "content": "Under applicable data protection laws, you have the following rights:",
+        "items": {
+          "access": "Access your personal data",
+          "correction": "Correct inaccurate information",
+          "deletion": "Request deletion of your data",
+          "portability": "Data portability"
+        }
+      },
+      "cookies": {
+        "title": "6. Cookie Usage",
+        "content": "We use essential cookies to maintain user sessions and language preferences. We do not use third-party tracking cookies or advertising cookies. You can disable cookies through your browser settings, though this may affect some functionality."
+      },
+      "contact": {
+        "title": "7. Contact Us",
+        "content": "For privacy-related inquiries, please contact us at:"
+      }
+    }
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last Updated",
+    "sections": {
+      "acceptance": {
+        "title": "1. Acceptance of Terms",
+        "content": "By using Transparent Domain, you agree to be bound by these Terms of Service. If you do not agree, please do not use the platform. We reserve the right to modify these terms at any time, with material changes communicated via website notice or email."
+      },
+      "eligibility": {
+        "title": "2. Eligibility",
+        "content": "You must be at least 16 years old to use this platform. The Community Participant role requires a valid educational institution email (.edu or .edu.cn), and you must confirm that you are or have been a student or researcher at a higher education institution. Administrators reserve the final right to verify your academic identity."
+      },
+      "accounts": {
+        "title": "3. User Accounts",
+        "content": "You are responsible for maintaining the confidentiality of your account credentials and for all activities under your account. We reserve the right to suspend or terminate accounts for terms violations or extended inactivity. Each natural person may register only one account."
+      },
+      "community": {
+        "title": "4. Community Participant Obligations",
+        "content": "As a Community Participant, you agree to: report observed academic behaviors honestly and accurately, provide reliable evidence for each report, refrain from malicious or false reporting against individuals, and comply with platform report frequency limits. Violations may result in revocation of Community Participant status."
+      },
+      "content": {
+        "title": "5. Content Guidelines",
+        "content": "All content posted by users on the platform must:",
+        "items": {
+          "accuracy": "Be based on facts and verifiable evidence",
+          "evidence": "Include supporting materials (links, screenshots, documents)",
+          "harassment": "Not contain harassment, defamation, or personal attacks",
+          "privacy": "Not disclose private information of others"
+        }
+      },
+      "termination": {
+        "title": "6. Termination",
+        "content": "We reserve the right to suspend or terminate user accounts at any time for any reason, including terms violations, false reporting, or abuse of platform resources. Upon termination, your public content may be retained in anonymized form."
+      },
+      "disclaimer": {
+        "title": "7. Disclaimer",
+        "content": "Transparent Domain is provided as-is. We make no warranties regarding the completeness, accuracy, or reliability of the information. The rating system combines automated algorithms with community input and does not constitute a legal judgment of an individual's academic ability. Please refer to the detailed Disclaimer page."
+      },
+      "contact": {
+        "title": "8. Contact Us",
+        "content": "For questions about these Terms of Service, please contact:"
+      }
+    }
+  },
+  "disclaimer": {
+    "title": "Disclaimer",
+    "lastUpdated": "Last Updated",
+    "sections": {
+      "ratings": {
+        "title": "Rating System Notice",
+        "content": "Transparent Domain's rating system is an automated assessment tool based on public data and community reports. Scores do not constitute a final judgment of an individual's academic ability, professional qualifications, or moral character. Ratings are limited by the completeness of data sources and accuracy of community reports."
+      },
+      "accuracy": {
+        "title": "Information Accuracy",
+        "content": "Researcher profiles displayed on this platform (including names, institutions, publications, contact information, etc.) are sourced from publicly accessible platforms (Google Scholar, ORCID, ResearchGate, etc.) and collected through automated processes. We make no warranties, express or implied, regarding the accuracy, timeliness, or completeness of this information."
+      },
+      "thirdParty": {
+        "title": "Third-Party Links",
+        "content": "This platform may contain links to external websites (such as arXiv, DOI links, personal homepages, etc.). We assume no responsibility for the content, privacy policies, or practices of these third-party sites."
+      },
+      "correction": {
+        "title": "Correction & Removal Requests",
+        "content": "If you are a researcher listed on this platform and believe your profile contains inaccurate information or wish to have it removed, please contact us via the email below. We will review and process your request within 15 business days. For clear factual errors, we commit to correction within 5 business days.",
+        "contact": "For correction requests, contact:"
+      },
+      "methodology": {
+        "title": "Rating Methodology",
+        "content": "Scores are calculated based on the following factors:",
+        "items": {
+          "citations": "Citation metrics and H-index (from Google Scholar and other public sources)",
+          "peerReview": "Quantity and quality of peer-reviewed publications",
+          "publicData": "Publicly verifiable academic activity data",
+          "communityReports": "Community reports approved by administrator review"
+        }
+      },
+      "liability": {
+        "title": "Limitation of Liability",
+        "content": "To the maximum extent permitted by applicable law, Transparent Domain and its operators shall not be liable for any direct, indirect, incidental, special, or consequential damages arising from the use of or reliance on information from this platform. Academic evaluation is inherently complex and multi-dimensional; quantitative scores are provided for reference only."
+      }
+    }
+  }
+}

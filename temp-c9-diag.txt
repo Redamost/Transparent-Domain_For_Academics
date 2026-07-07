@@ -1,0 +1,143 @@
+﻿═══════════════════════════════════════════════
+  C9 League 高校爬取诊断
+═══════════════════════════════════════════════
+
+
+━━━ 清华大学 (tsinghua) ━━━
+  List[0]: ✅ 76KB CJK:2478  https://www.cs.tsinghua.edu.cn/szzk/jzgml.htm
+  List[1]: 💀404 2KB CJK:32  https://www.ee.tsinghua.edu.cn/szdw.htm
+  List[2]: 💀404 2KB CJK:32  https://www.au.tsinghua.edu.cn/szdw.htm
+  List[3]: 💀404 2KB CJK:32  https://www.sem.tsinghua.edu.cn/szdw.htm
+  Scraping (max 5)...
+[CN-Uni] Scraping 清华大学 (Tsinghua University) — 4 faculty lists
+[CN-Uni] Found 167 profile links on https://www.cs.tsinghua.edu.cn/szzk/jzgml.htm
+[CN-Uni] Parsed: 冯建华 (1/5)
+[CN-Uni] Parsed: 冯铃 (2/5)
+[CN-Uni] Parsed: 李国良 (3/5)
+[CN-Uni] Parsed: 李涓子 (4/5)
+[CN-Uni] Parsed: 唐杰 (5/5)
+[CN-Uni] Done: 清华大学 — 5 profiles scraped
+  ✅ 5 profiles in 20s:
+     冯建华 | 教授 | 计算机科学与技术系 | bio:N
+     冯铃 | 教授 | 杰出中青年发明创造奖 | bio:N
+     李国良 | 教授 | 计算机科学与技术系 | bio:N
+
+━━━ 北京大学 (pku) ━━━
+  List[0]: ✅ 57KB CJK:2123  https://cs.pku.edu.cn/cse/qtcy.htm
+  List[1]: 💀404 2KB CJK:32  https://eecs.pku.edu.cn/xxgk/zzjs.htm
+  List[2]: 💀404 2KB CJK:32  https://www.phy.pku.edu.cn/szdw/jyxl.htm
+  List[3]: 💀TIMEOUT 0KB CJK:0  https://www.math.pku.edu.cn/szdw/jyxl.htm
+  Scraping (max 5)...
+[CN-Uni] Scraping 北京大学 (Peking University) — 4 faculty lists
+[CN-Uni] Found 3 profile links on https://cs.pku.edu.cn/cse/qtcy.htm
+node.exe : [CN-Uni] Failed to fetch faculty list: https://eecs.pku.edu.cn/xxgk/zzjs.htm
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([CN-Uni] Failed...n/xxgk/zzjs.htm:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[CN-Uni] Failed to fetch faculty list: https://www.phy.pku.edu.cn/szdw/jyxl.htm
+[CN-Uni] Network error for https://www.math.pku.edu.cn/szdw/jyxl.htm: fetch failed
+[CN-Uni] Failed to fetch faculty list: https://www.math.pku.edu.cn/szdw/jyxl.htm
+[CN-Uni] Done: 北京大学 — 0 profiles scraped
+  ❌ 0 profiles in 16s
+
+━━━ 浙江大学 (zju) ━━━
+  List[0]: ✅ 15KB CJK:445  http://www.cs.zju.edu.cn/csen/26695/list.htm
+  List[1]: ✅ 1KB CJK:0 🔧JS  https://person.zju.edu.cn/index/search
+  Scraping (max 5)...
+[CN-Uni] Scraping 浙江大学 (Zhejiang University) — 2 faculty lists
+[CN-Uni] Found 2 profile links on http://www.cs.zju.edu.cn/csen/26695/list.htm
+[CN-Uni] Parsed: 杨易 (1/5)
+[CN-Uni] Found 0 profile links on https://person.zju.edu.cn/index/search
+[CN-Uni] Done: 浙江大学 — 1 profiles scraped
+  ✅ 1 profiles in 15s:
+     杨易 | ? | 计算机科学与技术学院 | bio:Y
+
+━━━ 复旦大学 (fudan) ━━━
+  List[0]: ✅ 28KB CJK:773  https://cs.fudan.edu.cn/szdw/list.htm
+  List[1]: ✅ 5KB CJK:50  https://sme.fudan.edu.cn/szdw/list.htm
+  List[2]: ✅ 5KB CJK:50  https://life.fudan.edu.cn/szdw/list.htm
+  Scraping (max 5)...
+[CN-Uni] Scraping 复旦大学 (Fudan University) — 3 faculty lists
+[CN-Uni] Found 0 profile links on https://cs.fudan.edu.cn/szdw/list.htm
+[CN-Uni] Found 0 profile links on https://sme.fudan.edu.cn/szdw/list.htm
+[CN-Uni] Found 0 profile links on https://life.fudan.edu.cn/szdw/list.htm
+[CN-Uni] Done: 复旦大学 — 0 profiles scraped
+  ❌ 0 profiles in 35s
+
+━━━ 上海交通大学 (sjtu) ━━━
+  List[0]: ✅ 28KB CJK:976  https://www.cs.sjtu.edu.cn/jiaoshiml.html
+  List[1]: ✅ 27KB CJK:1604  https://www.cs.sjtu.edu.cn/lyys.html
+  List[2]: ✅ 75KB CJK:2193  https://www.seiee.sjtu.edu.cn/szdw.htm
+  Scraping (max 5)...
+[CN-Uni] Scraping 上海交通大学 (Shanghai Jiao Tong University) — 3 faculty lists
+[CN-Uni] Found 27 profile links on https://www.cs.sjtu.edu.cn/jiaoshiml.html
+[CN-Uni] Found 26 profile links on https://www.cs.sjtu.edu.cn/lyys.html
+[CN-Uni] Found 63 profile links on https://www.seiee.sjtu.edu.cn/szdw.htm
+[CN-Uni] Page 2: 63 more links
+[CN-Uni] Done: 上海交通大学 — 0 profiles scraped
+  ❌ 0 profiles in 229s
+
+━━━ 中国科学技术大学 (ustc) ━━━
+  List[0]: ✅ 2KB CJK:26  https://cs.ustc.edu.cn/szdw/list.htm
+  List[1]: ✅ 13KB CJK:591  https://physics.ustc.edu.cn/szdw/list.htm
+  List[2]: ✅ 328KB CJK:6106  https://math.ustc.edu.cn/szdw/list.htm
+  Scraping (max 5)...
+[CN-Uni] Scraping 中国科学技术大学 (University of Science and Technology of China) — 3 faculty lists
+[CN-Uni] Found 0 profile links on https://cs.ustc.edu.cn/szdw/list.htm
+[CN-Uni] Found 2 profile links on https://physics.ustc.edu.cn/szdw/list.htm
+[CN-Uni] Parsed: 中科大上海 (1/5)
+[CN-Uni] Found 2 profile links on https://math.ustc.edu.cn/szdw/list.htm
+[CN-Uni] Parsed: 湾区大学讲席 (2/5)
+[CN-Uni] Done: 中国科学技术大学 — 2 profiles scraped
+  ✅ 2 profiles in 45s:
+     中科大上海 | ? | 物理学院2027年研究生招生博导信息 | bio:Y
+     湾区大学讲席 | ? | 数学科学学院 | bio:Y
+
+━━━ 南京大学 (nju) ━━━
+  List[0]: ⚠️410 2KB CJK:26  https://cs.nju.edu.cn/szdw/list.htm
+  List[1]: 💀404 0KB CJK:0  https://cs.nju.edu.cn/xygk/szdw.htm
+  List[2]: ✅ 14KB CJK:1109  https://physics.nju.edu.cn/szdw.htm
+  Scraping (max 5)...
+[CN-Uni] Scraping 南京大学 (Nanjing University) — 3 faculty lists
+[CN-Uni] Failed to fetch faculty list: https://cs.nju.edu.cn/szdw/list.htm
+[CN-Uni] Failed to fetch faculty list: https://cs.nju.edu.cn/xygk/szdw.htm
+[CN-Uni] Found 2 profile links on https://physics.nju.edu.cn/szdw.htm
+[CN-Uni] Page 2: 2 more links
+[CN-Uni] Parsed: 贺我院杜灵杰 (1/5)
+[CN-Uni] Done: 南京大学 — 1 profiles scraped
+  ✅ 1 profiles in 5s:
+     贺我院杜灵杰 | ? | 物理学院 | bio:Y
+
+━━━ 哈尔滨工业大学 (hit) ━━━
+  List[0]: 💀TIMEOUT 0KB CJK:0  https://computing.hit.edu.cn/szdw/list.htm
+  List[1]: 💀TIMEOUT 0KB CJK:0  http://ee.hit.edu.cn/szdw/list.htm
+  List[2]: 💀TIMEOUT 0KB CJK:0  http://me.hit.edu.cn/szdw/list.htm
+  Scraping (max 5)...
+[CN-Uni] Scraping 哈尔滨工业大学 (Harbin Institute of Technology) — 3 faculty lists
+[CN-Uni] Network error for https://computing.hit.edu.cn/szdw/list.htm: fetch failed
+[CN-Uni] Failed to fetch faculty list: https://computing.hit.edu.cn/szdw/list.htm
+[CN-Uni] Network error for http://ee.hit.edu.cn/szdw/list.htm: fetch failed
+[CN-Uni] Failed to fetch faculty list: http://ee.hit.edu.cn/szdw/list.htm
+[CN-Uni] Network error for http://me.hit.edu.cn/szdw/list.htm: fetch failed
+[CN-Uni] Failed to fetch faculty list: http://me.hit.edu.cn/szdw/list.htm
+[CN-Uni] Done: 哈尔滨工业大学 — 0 profiles scraped
+  ❌ 0 profiles in 11s
+
+━━━ 西安交通大学 (xjtu) ━━━
+  List[0]: ✅ 2KB CJK:20  http://www.cs.xjtu.edu.cn/szdw/js.htm
+  List[1]: ✅ 2KB CJK:20  http://eie.xjtu.edu.cn/szdw/js.htm
+  List[2]: ✅ 2KB CJK:20  http://math.xjtu.edu.cn/szdw/js.htm
+  Scraping (max 5)...
+[CN-Uni] Scraping 西安交通大学 (Xi'an Jiaotong University) — 3 faculty lists
+[CN-Uni] Found 0 profile links on http://www.cs.xjtu.edu.cn/szdw/js.htm
+[CN-Uni] Found 0 profile links on http://eie.xjtu.edu.cn/szdw/js.htm
+[CN-Uni] Found 0 profile links on http://math.xjtu.edu.cn/szdw/js.htm
+[CN-Uni] Done: 西安交通大学 — 0 profiles scraped
+  ❌ 0 profiles in 35s
+
+═══════════════════════════════════════════════
+  诊断完成
+═══════════════════════════════════════════════

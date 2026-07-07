@@ -1,0 +1,433 @@
+{
+  "site": {
+    "title": "透明领域",
+    "subtitle": "科研透明度平台",
+    "description": "展示科研领域影响力人物，推动学术透明度"
+  },
+  "nav": {
+    "home": "首页",
+    "browse": "浏览领域",
+    "search": "搜索",
+    "circles": "学术圈",
+    "about": "关于",
+    "signin": "登录",
+    "signout": "退出",
+    "register": "注册",
+    "dashboard": "工作台",
+    "admin": "管理后台"
+  },
+  "home": {
+    "hero": "透视科研影响力",
+    "heroSub": "基于社区监督的科研人员评分平台",
+    "searchPlaceholder": "搜索研究人员、机构或领域...",
+    "topFields": "热门研究领域",
+    "topRated": "高分研究人员",
+    "topResearchers": "高分研究者",
+    "lowResearchers": "低分研究者",
+    "recentActivity": "近期动态",
+    "statsPersons": "收录研究人员",
+    "statsFields": "研究领域",
+    "statsReports": "社区报告"
+  },
+  "search": {
+    "title": "搜索",
+    "placeholder": "输入姓名、机构或关键词...",
+    "filters": "筛选条件",
+    "field": "研究领域",
+    "institution": "机构",
+    "scoreRange": "评分范围",
+    "sortBy": "排序方式",
+    "sortScoreDesc": "评分从高到低",
+    "sortScoreAsc": "评分从低到高",
+    "sortNameAsc": "姓名 A-Z",
+    "sortHIndexDesc": "H指数从高到低",
+    "noResults": "未找到结果",
+    "typePerson": "研究人员",
+    "typePublication": "论文发表"
+  },
+  "person": {
+    "title": "职称",
+    "institution": "所属机构",
+    "department": "院系",
+    "fields": "研究领域",
+    "contact": "联系方式",
+    "email": "邮箱",
+    "website": "个人网站",
+    "orcid": "ORCID",
+    "googleScholar": "Google Scholar",
+    "researchGate": "ResearchGate",
+    "overview": "概览",
+    "publications": "论文发表",
+    "researchFeed": "科研动态",
+    "competitionFeed": "竞赛动态",
+    "evaluationFeed": "评比动态",
+    "ratingHistory": "评分历史",
+    "reports": "相关报告",
+    "academicMetrics": "学术指标",
+    "hIndex": "H指数",
+    "citations": "引用数",
+    "publicationsCount": "发表数",
+    "reportButton": "提交评价报告",
+    "score": "评分",
+    "unknownNameEn": "英文名未知",
+    "unknownTitle": "职称未知",
+    "unknownInstitution": "机构未知",
+    "unknownDepartment": "院系未知",
+    "unknownField": "领域未知",
+    "unknownEmail": "邮箱未知",
+    "unknownWebsite": "个人网站未知",
+    "unknownOrcid": "ORCID未知",
+    "unknownGS": "Google Scholar未知",
+    "noContact": "暂无联系方式",
+    "noBio": "暂无个人简介",
+    "noPublications": "暂无发表记录",
+    "noUpdates": "暂无科研动态",
+    "noCompetitionUpdates": "暂无竞赛动态",
+    "noEvaluationUpdates": "暂无评比动态",
+    "competitionLevel": "竞赛级别",
+    "competitionAward": "获奖情况",
+    "evaluationType": "评比类型",
+    "evaluationResult": "评比结果",
+    "lastUpdated": "数据更新时间",
+    "dataIncomplete": "数据待完善 — 此学者信息由公开数据自动抓取生成",
+    "sourceInfo": "数据来源：中国大学官方网站公开信息",
+    "scrapeDate": "抓取时间",
+    "notScraped": "尚未抓取",
+    "disclaimer": "此资料由公开数据自动生成，可能不完整或不准确。研究人员可申请更新或删除。"
+  },
+  "rating": {
+    "score": "综合评分",
+    "baseline": "基准线 (100)",
+    "excellent": "优秀",
+    "good": "良好",
+    "fair": "一般",
+    "poor": "较差",
+    "critical": "严重",
+    "category": {
+      "RESEARCH_QUALITY": "研究质量",
+      "METHODOLOGY_RIGOR": "方法论严谨性",
+      "COLLABORATION_ETHICS": "合作伦理",
+      "CITATION_INTEGRITY": "引用诚信",
+      "PEER_RECOGNITION": "同行认可",
+      "COMMUNITY_FEEDBACK": "社区反馈"
+    },
+    "noHistory": "暂无评分历史"
+  },
+  "report": {
+    "title": "提交报告",
+    "selectPerson": "选择研究人员",
+    "category": "报告类别",
+    "category_ACADEMIC_MISCONDUCT": "学术不端",
+    "category_RIGOROUS_RESEARCH": "严谨研究",
+    "category_CONFLICT_OF_INTEREST": "利益冲突",
+    "category_CITATION_MANIPULATION": "引用操纵",
+    "category_OTHER": "其他",
+    "summary": "报告标题",
+    "description": "详细描述",
+    "descriptionPlaceholder": "请详细描述您观察到的情况（至少50字）...",
+    "severity": "严重程度",
+    "evidence": "证据上传",
+    "submit": "提交报告",
+    "success": "报告提交成功，等待管理员审核",
+    "myReports": "我的报告",
+    "status": "状态",
+    "status_PENDING": "待审核",
+    "status_UNDER_REVIEW": "审核中",
+    "status_APPROVED": "已通过",
+    "status_REJECTED": "已驳回",
+    "status_APPEALED": "申诉中"
+  },
+  "auth": {
+    "signin": "登录",
+    "register": "注册",
+    "email": "邮箱",
+    "password": "密码",
+    "name": "姓名",
+    "confirmPassword": "确认密码",
+    "signinButton": "登录",
+    "registerButton": "注册",
+    "noAccount": "还没有账号？",
+    "hasAccount": "已有账号？",
+    "verifyEdu": "验证EDU邮箱",
+    "eduEmail": "教育邮箱 (.edu / .edu.cn)",
+    "sendVerification": "发送验证邮件",
+    "enterCode": "输入验证码",
+    "confirmVerification": "确认验证",
+    "upgradeToCommunity": "升级为社区参与员"
+  },
+  "dashboard": {
+    "welcome": "欢迎回来",
+    "stats": "统计概览",
+    "totalReports": "提交报告",
+    "approvedReports": "已通过报告",
+    "rejectedReports": "已驳回报告",
+    "scoreImpact": "评分影响",
+    "streak": "连续天数",
+    "todayTasks": "今日任务",
+    "myReports": "我的报告",
+    "recentReports": "近期报告",
+    "noTasks": "今日暂无任务"
+  },
+  "community": {
+    "level": "透明等级",
+    "levelProgress": "等级进度",
+    "expToNext": "距离下一级还需 {exp} 经验",
+    "maxLevel": "已达到最高等级",
+    "accuracy": "报告准确率",
+    "tasksCompleted": "完成任务",
+    "reportsApproved": "通过报告",
+    "currentStreak": "连续活跃",
+    "longestStreak": "最长连续",
+    "days": "天",
+    "taskComplete": "完成",
+    "taskCompleted": "已完成",
+    "taskSkip": "跳过",
+    "taskExpReward": "+{exp} 经验",
+    "completedAt": "完成于",
+    "allTasksDone": "今日暂无任务",
+    "allTasksCompleted": "全部任务已完成 ✓",
+    "level_1_name": "观察者",
+    "level_2_name": "监督者",
+    "level_3_name": "守护者",
+    "level_4_name": "裁决者",
+    "level_5_name": "透明使者"
+  },
+  "hotspot": {
+    "title": "透明热点",
+    "subtitle": "社区实时关注的学术动态，汇聚最受关注的学术事件",
+    "tabStains": "学术污点",
+    "tabHighlights": "学术亮点",
+    "stainCount": "被举报 {count} 次",
+    "highlightScore": "亮点评分",
+    "severityLevel": "严重程度",
+    "heatScore": "热度",
+    "score": "评分",
+    "viewDetail": "查看详情",
+    "noStains": "暂无学术污点 — 社区环境良好",
+    "noHighlights": "暂无学术亮点 — 等待更多正面动态",
+    "recentUpdate": "最新动态",
+    "recentAchievements": "项成就",
+    "showingCount": "共展示 {count} 条热点",
+    "live": "实时",
+    "updating": "更新中...",
+    "justNow": "刚刚更新",
+    "secondsAgo": "{seconds} 秒前更新",
+    "minutesAgo": "{minutes} 分钟前更新",
+    "hoursAgo": "{hours} 小时前更新",
+    "daysAgo": "{days} 天前更新",
+    "monthsAgo": "{months} 月前更新"
+  },
+  "admin": {
+    "dashboard": "管理仪表盘",
+    "reports": "举报审核",
+    "persons": "人员管理",
+    "fields": "领域管理",
+    "users": "用户管理",
+    "quality": "数据质量",
+    "auditLog": "审计日志",
+    "pendingReports": "待审核报告",
+    "totalPersons": "人员总数",
+    "communityMembers": "社区成员",
+    "recentChanges": "近期评分变动",
+    "review": "审核",
+    "approve": "通过",
+    "reject": "驳回",
+    "needMoreInfo": "需要更多信息",
+    "adminNotes": "审核备注",
+    "scoreDelta": "评分调整",
+    "confirmApprove": "确认通过此报告并调整评分？",
+    "confirmReject": "确认驳回此报告？",
+    "dataQuality": {
+      "title": "数据质量管理",
+      "scanNow": "开始扫描",
+      "scanning": "扫描中...",
+      "dryRun": "预演清理",
+      "execCleanup": "执行清理",
+      "execCleanupConfirm": "这将永久修改数据。确定继续？",
+      "lastScan": "上次扫描",
+      "totalIssues": "问题总数",
+      "critical": "严重",
+      "high": "高",
+      "medium": "中",
+      "low": "低",
+      "autoFixable": "可自动修复",
+      "needsReview": "需人工审查",
+      "noIssues": "未发现问题",
+      "noIssuesDesc": "数据库质量良好",
+      "scanFailed": "扫描失败。请确认您已以管理员身份登录。",
+      "cleanupResult": "清理结果",
+      "dryRunResult": "预演结果",
+      "succeeded": "成功 {count} 项",
+      "failed": "失败 {count} 项",
+      "recentActivity": "近期活动",
+      "issueTypes": {
+        "GARBAGE_NAME": "垃圾姓名",
+        "JUNK_BIO": "垃圾简介",
+        "INCOMPLETE_PROFILE": "信息不完整",
+        "DUPLICATE_PERSON": "重复学者",
+        "STALE_DATA": "过期数据",
+        "ORPHANED_RECORD": "孤立记录",
+        "SUSPICIOUS_SCORE": "异常评分",
+        "EMPTY_FIELDS": "未分配领域",
+        "INACTIVE_WITH_CONTENT": "停用残留数据"
+      }
+    }
+  },
+  "field": {
+    "title": "研究领域",
+    "subFields": "子领域",
+    "personsInField": "该领域研究人员",
+    "noSubFields": "暂无子领域",
+    "avgScore": "平均评分",
+    "personCount": "研究人员数"
+  },
+  "common": {
+    "loading": "加载中...",
+    "error": "加载失败",
+    "retry": "重试",
+    "noData": "暂无数据",
+    "back": "返回",
+    "save": "保存",
+    "cancel": "取消",
+    "delete": "删除",
+    "edit": "编辑",
+    "view": "查看",
+    "more": "更多",
+    "page": "第 {page} 页",
+    "language": "English"
+  },
+  "footer": {
+    "about": "关于透明领域",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "disclaimer": "免责声明",
+    "rights": "版权所有"
+  },
+  "privacy": {
+    "title": "隐私政策",
+    "lastUpdated": "最后更新",
+    "sections": {
+      "collection": {
+        "title": "1. 信息收集",
+        "content": "我们在您使用透明领域平台时收集以下类型的信息：",
+        "items": {
+          "email": "电子邮箱地址（注册和EDU验证）",
+          "profile": "个人资料信息（姓名、机构、研究领域）",
+          "research": "研究活动数据（提交的报告、审核历史）",
+          "usage": "使用数据（页面访问、搜索记录）"
+        }
+      },
+      "usage": {
+        "title": "2. 信息使用",
+        "content": "收集的信息用于：提供和改善服务、验证用户身份和学术背景、处理社区报告和评分更新、发送服务相关通知、分析和提升平台安全性。我们不会将您的个人信息用于与上述目的无关的用途。"
+      },
+      "sharing": {
+        "title": "3. 信息共享",
+        "content": "除以下情况外，我们不会与第三方共享您的个人信息：获得您的明确同意、法律要求或政府机关合法请求、保护透明领域的权利和安全。我们绝不会出售您的个人数据。"
+      },
+      "storage": {
+        "title": "4. 数据存储与安全",
+        "content": "您的数据存储在加密的PostgreSQL数据库中。我们采用行业标准的安全措施保护您的个人信息，包括传输加密（TLS）、访问控制和定期安全审计。数据保留期限为账户活跃期间加上合理备份期限。"
+      },
+      "rights": {
+        "title": "5. 您的权利",
+        "content": "根据适用的数据保护法律，您拥有以下权利：",
+        "items": {
+          "access": "访问您的个人数据",
+          "correction": "更正不准确的信息",
+          "deletion": "请求删除您的数据",
+          "portability": "数据可携带性"
+        }
+      },
+      "cookies": {
+        "title": "6. Cookie的使用",
+        "content": "我们使用必要的Cookie来维持用户会话和语言偏好。不使用第三方追踪Cookie或广告Cookie。您可以通过浏览器设置禁用Cookie，但这可能影响部分功能的使用。"
+      },
+      "contact": {
+        "title": "7. 联系我们",
+        "content": "如有隐私相关问题，请通过以下方式联系我们："
+      }
+    }
+  },
+  "terms": {
+    "title": "服务条款",
+    "lastUpdated": "最后更新",
+    "sections": {
+      "acceptance": {
+        "title": "1. 接受条款",
+        "content": "使用透明领域即表示您同意遵守本服务条款。如果您不同意这些条款，请勿使用本平台。我们保留随时修改本条款的权利，重大变更将通过网站通知或电子邮件告知。"
+      },
+      "eligibility": {
+        "title": "2. 使用资格",
+        "content": "您必须年满16周岁方可使用本平台。社区参与员角色需要有效的教育机构邮箱（.edu或.edu.cn），且您需确认目前是或曾是高等教育机构的学生或研究人员。管理员保留验证您学术身份的最终权利。"
+      },
+      "accounts": {
+        "title": "3. 用户账户",
+        "content": "您有责任维护账户凭据的机密性，并对账户下的所有活动负责。我们保留因违反条款或长期不活跃而暂停或终止账户的权利。每个自然人只能注册一个账户。"
+      },
+      "community": {
+        "title": "4. 社区参与员义务",
+        "content": "作为社区参与员，您同意：诚实准确地报告观察到的学术行为、为每份报告提供可靠的证据支持、不对个人进行恶意或虚假举报、遵守平台报告频率限制。违反上述义务可能导致社区参与员资格被撤销。"
+      },
+      "content": {
+        "title": "5. 内容准则",
+        "content": "用户在平台上发布的所有内容必须：",
+        "items": {
+          "accuracy": "基于事实和可验证的证据",
+          "evidence": "包含支持材料（链接、截图、文档）",
+          "harassment": "不包含骚扰、诽谤或人身攻击",
+          "privacy": "不泄露他人的私人信息"
+        }
+      },
+      "termination": {
+        "title": "6. 终止",
+        "content": "我们保留随时因任何原因暂停或终止用户账户的权利，包括违反本条款、虚假报告或滥用平台资源。终止后，您的公开内容可能被匿名化保留。"
+      },
+      "disclaimer": {
+        "title": "7. 免责声明",
+        "content": "透明领域按现状提供。我们不保证信息的完整性、准确性或可靠性。评分系统是自动化算法与社区输入的结合，不构成对个人学术能力的法律判断。请参见详细的免责声明页面。"
+      },
+      "contact": {
+        "title": "8. 联系我们",
+        "content": "如有服务条款相关问题，请联系："
+      }
+    }
+  },
+  "disclaimer": {
+    "title": "免责声明",
+    "lastUpdated": "最后更新",
+    "sections": {
+      "ratings": {
+        "title": "评分系统说明",
+        "content": "透明领域的评分系统是一个基于公开数据和社区报告的自动化评估工具。评分不构成对个人学术能力、专业资格或道德品质的最终判断。评分受限于数据来源的完整性和社区报告的准确性。"
+      },
+      "accuracy": {
+        "title": "信息准确性",
+        "content": "本平台显示的研究人员资料（包括姓名、机构、发表记录、联系方式等）来自公开可获取的来源（Google Scholar、ORCID、ResearchGate等），通过自动化流程收集和整合。我们不对这些信息的准确性、时效性或完整性作出任何明示或暗示的保证。"
+      },
+      "thirdParty": {
+        "title": "第三方链接",
+        "content": "本平台可能包含指向外部网站（如arXiv、DOI链接、个人主页等）的链接。我们对这些第三方网站的内容、隐私政策或实践不承担任何责任。"
+      },
+      "correction": {
+        "title": "更正与删除请求",
+        "content": "如果您是平台收录的研究人员，并认为您的资料包含不准确信息或希望将其删除，请通过下方邮箱联系我们。我们将在收到请求后15个工作日内审核并处理。对于明显事实性错误，我们承诺在5个工作日内更正。",
+        "contact": "更正请求请联系："
+      },
+      "methodology": {
+        "title": "评分方法论",
+        "content": "评分基于以下因素综合计算：",
+        "items": {
+          "citations": "引用指标和H指数（来自Google Scholar等公开来源）",
+          "peerReview": "同行评审出版物数量和质量",
+          "publicData": "公开可验证的学术活动数据",
+          "communityReports": "经管理员审核通过的社区报告"
+        }
+      },
+      "liability": {
+        "title": "责任限制",
+        "content": "在适用法律允许的最大范围内，透明领域及其运营方不对因使用或依赖本平台信息而产生的任何直接、间接、附带、特殊或后果性损害承担责任。学术评价本质上是一个复杂且多维度的问题，量化评分仅供参考。"
+      }
+    }
+  }
+}
